@@ -31,15 +31,29 @@ baseurl: "/purdue-magic" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+email: k12@cs.purdue.edu
+accent_image: /assets/img/MAGIC-logo.png
+accent_color: rgb(17,54,74)
+theme_color: rgb(25,55,71)
+
 
 # Build settings
 #theme: minima
 theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
-theme_color: rgb(25,55,71)
-accent_image: _site/assets/img/MAGIC-logo.png
 
+menu:
+  - title: Blog
+    url: /blog/
+  - title: About
+    url: /about/
+
+hydejack:
+  dark_mode:
+    always: true
+    dynamic: true
+    icon: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
