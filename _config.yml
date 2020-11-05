@@ -21,18 +21,39 @@
 title: Purdue MAGIC
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to the home base for Purdue's CS MAGIC (Mentors
+  Aspiring Girls In Computing) program. Our group of undergraduate
+  students aim to increase interest in technology career paths among
+  young women through the creation of safe + positive learning environments,
+  using engaging CS activites for instruction and near-peer
+  mentoring to encourage future success.
 baseurl: "/purdue-magic" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+email: k12@cs.purdue.edu
+accent_image: /assets/img/MAGIC-logo.png
+accent_color: rgb(17,54,74)
+theme_color: rgb(25,55,71)
+
 
 # Build settings
-theme: minima
+#theme: minima
+theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
+
+menu:
+  - title: Blog
+    url: /blog/
+  - title: About
+    url: /about/
+
+hydejack:
+  dark_mode:
+    always: true
+    dynamic: true
+    icon: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
