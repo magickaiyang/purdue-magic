@@ -42,6 +42,7 @@ theme_color: rgb(25,55,71)
 theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 menu:
   - title: Blog

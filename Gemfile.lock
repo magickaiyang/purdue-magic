@@ -262,6 +262,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.12)
+  jekyll-include-cache
   jekyll-theme-hydejack
   tzinfo (~> 1.2)
   tzinfo-data
