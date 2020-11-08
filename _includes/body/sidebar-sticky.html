@@ -8,10 +8,22 @@
     <a class="sidebar-title" href="{{ '/' | relative_url }}"><h2 class="h1">{{ site.short_title | default:site.title }}</h2></a>
     {% assign text = site.tagline | default:site.description %}
     {% if text %}
+    <style>
+      p {
+        color: black
+      }
+      .boxed {
+        background-color: lightblue;
+        padding: 25px;
+      }
+    </style>
+    <div class="boxed">
       <p class="{% if text.size > 100 %}fine{% endif %}">
         {{ text | markdownify | replace:'<p>','' | replace:'</p>','' }}
       </p>
+    </div>
     {% endif %}
+   
   </div>
 
   <nav class="sidebar-nav heading" role="navigation">
