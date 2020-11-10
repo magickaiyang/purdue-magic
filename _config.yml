@@ -28,7 +28,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   using engaging CS activites for instruction and near-peer
   mentoring to encourage future success.
 baseurl: "/purdue-magic" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://magickaiyang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  HannahShiple321
 email: k12@cs.purdue.edu
