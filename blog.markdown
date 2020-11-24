@@ -3,6 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home2
+<<<<<<< HEAD
 cover: false
+=======
+>>>>>>> 53ecc59f252d0eb7b36985c66f1a1b9474d3c702
 permalink: /blog/
 ---
