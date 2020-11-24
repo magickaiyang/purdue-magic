@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home2
-cover: true
+cover: false
 permalink: /blog/
 ---
