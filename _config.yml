@@ -49,6 +49,8 @@ menu:
     url: /blog/
   - title: About
     url: /about/
+  - title: Gallery
+    url: /gallery/
 
 hydejack:
   dark_mode:
