@@ -19,7 +19,6 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Purdue MAGIC
-email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to the home base for Purdue's CS MAGIC (Mentors
   Aspiring Girls In Computing) program. Our group of undergraduate
@@ -41,6 +40,7 @@ theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-gallery-generator
 
 menu:
   - title: Blog
@@ -49,6 +49,35 @@ menu:
     url: /about/
 
 destination: docs/
+
+galleries:
+  2014
+  2015
+  '20160929_MAGIC_WL'
+  '20161129_Hack_w_MAGIC'
+  '20170125_MAGIC_Jeff'
+  '20180210_GirlScouts'
+  '20180913_Jeff_Kickoff'
+  '20190124_CS_Legislative_Fair'
+  '20190318_Luther_Field_Trip'
+  'Coding club meetings'
+  'Hambrusch 11-6-2015'
+  'Harrison Kickoff 2017-09-22'
+  'Jeff 20150204'
+  'Jeff 20151007'
+  'Jeff 20170412'
+  'Luther Field Trip 3-30-2015'
+  'MAGIC Callout 8-28-2015'
+  'McCutcheon'
+  'McCutcheon 9-29-2015'
+  'McCutcheon Kickoff 2017-09-20'
+  'Other K-12 Outreach'
+  'school visits'
+  'school visits 2'
+  'Springfest 20150405'
+  'Sunnyside'
+  'Syndicate 20170320'
+  'WL Kickoff 2017-09-13'
 
 # Exclude from processing.
 # The following items will not be processed, by default.
