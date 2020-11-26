@@ -48,6 +48,8 @@ menu:
     url: /blog/
   - title: About
     url: /about/
+  - title: Photos
+    url: /photos/
 
 destination: docs/
 
