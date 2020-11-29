@@ -29,7 +29,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/purdue-magic" # the subpath of your site, e.g. /blog
 url: "https://magickaiyang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 email: k12@cs.purdue.edu
-accent_image: /assets/img/MAGIC-logo.png
 accent_color: rgb(17,54,74)
 theme_color: rgb(25,55,71)
 logo: /assets/img/MAGIC-logo.png
@@ -53,34 +52,16 @@ menu:
 
 destination: docs/
 
-galleries:
-  2014
-  2015
-  '20160929_MAGIC_WL'
-  '20161129_Hack_w_MAGIC'
-  '20170125_MAGIC_Jeff'
-  '20180210_GirlScouts'
-  '20180913_Jeff_Kickoff'
-  '20190124_CS_Legislative_Fair'
-  '20190318_Luther_Field_Trip'
-  'Coding club meetings'
-  'Hambrusch 11-6-2015'
-  'Harrison Kickoff 2017-09-22'
-  'Jeff 20150204'
-  'Jeff 20151007'
-  'Jeff 20170412'
-  'Luther Field Trip 3-30-2015'
-  'MAGIC Callout 8-28-2015'
-  'McCutcheon'
-  'McCutcheon 9-29-2015'
-  'McCutcheon Kickoff 2017-09-20'
-  'Other K-12 Outreach'
-  'school visits'
-  'school visits 2'
-  'Springfest 20150405'
-  'Sunnyside'
-  'Syndicate 20170320'
-  'WL Kickoff 2017-09-13'
+gallery:
+  dir: photos               # Path to the gallery
+  symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
+  title: "Photos"           # Title for gallery index page
+  title_prefix: "Photos: "  # Title prefix for gallery pages. Gallery title = title_prefix + gallery_name
+  sort_field: "date_time"   # How to sort galleries on the index page.
+                            # Possible values are: title, date_time, best_image
+  thumbnail_size:
+    x: 800                  # max width of thumbnails (in pixels)
+    y: 600                  # max height of thumbnails (in pixels)
 
 # Exclude from processing.
 # The following items will not be processed, by default.
