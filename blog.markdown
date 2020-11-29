@@ -1,6 +1,6 @@
 ---
 
-layout: home2
+layout: home
 cover: false
 permalink: /blog/
 ---
